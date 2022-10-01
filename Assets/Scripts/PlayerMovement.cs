@@ -29,15 +29,13 @@ public class PlayerMovement : MonoBehaviour
         newX = newX + x;
         newY = newY + y;
         Vector3 newPos = new Vector3(newX, newY, -10);
-        camera.position = newPos;
-        float outX = newX * 637; //X value to be released on output: With random multiplier
-        float outY = newY * 483; //Y value to be released on output: With random multiplier
+        cam.position = newPos;
 
         //TO DO: Add component for display: X and Y Coordinates.
         if(Input.GetButtonUp("Horizontal") || Input.GetButtonUp("Vertical")){
             XVal.text = outX.ToString("F3");
             YVal.text = outY.ToString("F3");
         }
-            // Debug.Log(string.Format("Current Position: {0}, {1}", outX.ToString(), outY.ToString()));       
+            // Debug.Log(string.Format("Current Position: {0}, {1}", outX.ToString(), outY.ToString()));
     }
 }
