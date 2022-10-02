@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+using TMPro;
+
 public class StoryManager : MonoBehaviour
 {
     // UIManager
@@ -20,6 +22,8 @@ public class StoryManager : MonoBehaviour
     [Header("Parts to Find")]
     public Parts[] parts;
     public bool hasFoundAllParts = false;
+    public int partsToFind;
+    public TextMeshProUGUI count;
 
     [Header("Object Description")]
     public GameObject objectDescriptionUI;
@@ -90,6 +94,21 @@ public class StoryManager : MonoBehaviour
 
         #endregion
 
+        #region Count
+
+        // Count how many parts are found
+        partsToFind = 0;
+        for (int i = 0; i < parts.Length; i++)
+        {
+            if (parts[i].hasFound == false)
+                partsToFind++;
+        }
+
+        // Display 
+        count.text = "Parts left to find: " + partsToFind;
+
+        #endregion
+
         #region When Player Found all parts
 
         // If found all parts load ending scene
@@ -101,6 +120,7 @@ public class StoryManager : MonoBehaviour
         }
 
         #endregion
+
     }
 
     public void HasFoundPart(GameObject gameObject, SpaceObjectData data)
