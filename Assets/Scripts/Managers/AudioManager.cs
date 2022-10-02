@@ -4,6 +4,22 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
+    #region SINGLETON
+
+    private static AudioManager _Instance;
+    public static AudioManager Instance
+    {
+        get
+        {
+            if (_Instance == null)
+                _Instance = GameObject.FindObjectOfType<AudioManager>();
+
+            return _Instance;
+        }
+    }
+
+    #endregion
+
     public AudioSource audioSource;
     public Audios[] audioList;
 

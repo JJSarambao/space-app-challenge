@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public float playerSpeed;
     private float newX = 0;
     private float newY = 0;
+    public GameObject coordinates;
 
     void Awake()
     {
@@ -42,7 +43,15 @@ public class PlayerMovement : MonoBehaviour
             XVal.text = outX.ToString("F2");
             YVal.text = outY.ToString("F2");
         }
-        
-        // Debug.Log(string.Format("Current Position: {0}, {1}", outX.ToString(), outY.ToString()));
+
+        // Pull up coordinates
+        if (Input.GetKey(KeyCode.H))
+        {
+            coordinates.SetActive(true);
+        }
+        else
+        {
+            coordinates.SetActive(false);
+        }
     }
 }

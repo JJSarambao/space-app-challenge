@@ -49,6 +49,7 @@ public class SpaceObjectDisplay : MonoBehaviour
         // Display images in the scene
         if (data.type == ObjectType.Telescope)
         {
+            AudioManager.Instance.PlayAudio("Found Telescope");
             if (data.capturedImages.Length > 0)
             {
                 captureImagesButton.SetActive(true);
@@ -66,6 +67,7 @@ public class SpaceObjectDisplay : MonoBehaviour
         // Do not display button if it is a part
         if (data.type == ObjectType.Part)
         {
+            AudioManager.Instance.PlayAudio("Found Part");
             captureImagesButton.SetActive(false);
 
             // Display congratulations
@@ -82,7 +84,7 @@ public class SpaceObjectDisplay : MonoBehaviour
 
     public void ScrollRight()
     {
-        index = index + 1 % capturedImages.Length;
+        index = (index + 1) % capturedImages.Length;
         capturedImageDisplay.sprite = capturedImages[index];
     }
 
