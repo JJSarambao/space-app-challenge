@@ -825,7 +825,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &776879727
 RectTransform:
   m_ObjectHideFlags: 0
@@ -941,7 +941,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9c7936ab0cd01d145b07e79ca0cbbb3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 012c3f7b2394b34428f0bddb464d0118, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1542,7 +1542,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 10fc0bddb2251274aa2baf0fe86da669, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0e47bd655e3edb94f97de9767a079ea3, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1879,12 +1879,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum.
+  m_text: The James Webb Space Telescope is an infrared observatory orbiting the
+    Sun at a distance of around one million miles from Earth. It searches for the
+    first galaxies that emerged in the early cosmos and watches stars develop planetary
+    systems. Infrared light, which the human eye is unable to see, is used by Webb
+    to examine every stage of the history of the cosmos. The four scientific instruments
+    on the telescope are made specifically to collect infrared light, and they can
+    look through cosmic dust to investigate colder or more distant objects.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1911,8 +1912,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 26.5
+  m_fontSizeBase: 26.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3050,7 +3051,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TELESCOPE NAME
+  m_text: JAMES WEBB SPACE TELESCOPE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4d21b8e929c8c31488d8a70a79a27227, type: 2}
   m_sharedMaterial: {fileID: 4327123272341090541, guid: 4d21b8e929c8c31488d8a70a79a27227, type: 2}
@@ -3145,7 +3146,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2032090746
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3222,5 +3223,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   otherTelescopes: {fileID: 1204228622}
   imagesByOtherTelescopes:
-  - {fileID: 21300000, guid: b49652796763a9549b884fce6f362c10, type: 3}
-  - {fileID: 21300000, guid: d64215f891ff65649bf56c1fb0cf0a25, type: 3}
+  - {fileID: 21300000, guid: b5ca2ff230648ea42b6fbfe8e7320d91, type: 3}
+  - {fileID: 21300000, guid: 0e47bd655e3edb94f97de9767a079ea3, type: 3}
+  - {fileID: 21300000, guid: 61536820d76e0de4698a68a1daa1b519, type: 3}
+  - {fileID: 21300000, guid: cfe5384af6d093e4ca261e6ed4cb1ac8, type: 3}
+  - {fileID: 21300000, guid: cc0d96519f7a30144833c623c3b35a9b, type: 3}
+  - {fileID: 21300000, guid: 5eb94a042717b224fa69b413961d000d, type: 3}
+  - {fileID: 21300000, guid: 38e376215053ede4ea3ec23f659fbe03, type: 3}
+  - {fileID: 21300000, guid: 1a97f9531b266184698965541ccff342, type: 3}
+  - {fileID: 21300000, guid: 9217f489087064d4d8b595a57c40e2b4, type: 3}
