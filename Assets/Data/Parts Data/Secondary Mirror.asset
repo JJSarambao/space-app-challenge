@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d8b6488a8b0ab3498b1abb80698a338, type: 3}
   m_Name: Secondary Mirror
   m_EditorClassIdentifier: 
+  type: 0
   image: {fileID: 21300000, guid: 15f160a50cf4f644882f6cf9dfc09bc8, type: 3}
   header: Secondary Mirror
-  body: 
+  body: The secondary mirror directs the sunlight from the primary mirror into the
+    scientific instruments where it is recorded.
   capturedImages: []
