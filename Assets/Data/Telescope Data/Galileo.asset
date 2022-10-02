@@ -15,5 +15,11 @@ MonoBehaviour:
   type: 1
   image: {fileID: 21300000, guid: 9c7936ab0cd01d145b07e79ca0cbbb3c, type: 3}
   header: Gallileo Telescope
-  body: 
-  capturedImages: []
+  body: A telescope named after the renowned Italian scientist Galileo Galilei (1564-1642),
+    who built the first one in 1609, the Galilean is used to see distant objects.
+    With it, he found the Moon's slopes and valleys, the Sun's spots, Venus's phases,
+    and the four greatest satellites of Jupiter.
+  capturedImages:
+  - {fileID: 21300000, guid: 04988299dc909b54f9621de02a205195, type: 3}
+  - {fileID: 21300000, guid: 12828b71ddd8f654a80e8004b1d3632b, type: 3}
+  - {fileID: 21300000, guid: b5ca2ff230648ea42b6fbfe8e7320d91, type: 3}
