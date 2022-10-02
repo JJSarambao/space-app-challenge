@@ -20,4 +20,7 @@ MonoBehaviour:
     one of those stars' paths, a faint dimming is noticed, and the telescope looks
     for it. The telescope has found thousands of planets outside of our solar system
     since it was deployed in 2009.
-  capturedImages: []
+  capturedImages:
+  - {fileID: 21300000, guid: ada8af929ab2a644b93e43fc5560bda8, type: 3}
+  - {fileID: 21300000, guid: 69067536ad1e01c4d83ce3193af67ac6, type: 3}
+  - {fileID: 21300000, guid: 28eba3b429ed76748b8a4e001c93478d, type: 3}

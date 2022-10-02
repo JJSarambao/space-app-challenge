@@ -20,4 +20,7 @@ MonoBehaviour:
     light). Spitzer has made significant discoveries regarding comets, stars, exoplanets,
     and distant galaxies. It was the first telescope to detect light from a planet
     outside of our solar system.
-  capturedImages: []
+  capturedImages:
+  - {fileID: 21300000, guid: 98753da6e929c2844b43d3a9885805eb, type: 3}
+  - {fileID: 21300000, guid: 997b80424c9a96943b73743e02c8f9b0, type: 3}
+  - {fileID: 21300000, guid: 9b823dd6047ca644dafb193f83759d2e, type: 3}
